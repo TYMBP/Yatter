@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CA3CF21ACD6CF0000EB540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3CF11ACD6CF0000EB540 /* main.m */; };
+		10CA3CF51ACD6CF0000EB540 /* TYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3CF41ACD6CF0000EB540 /* TYAppDelegate.m */; };
+		10CA3CF81ACD6CF1000EB540 /* TYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3CF71ACD6CF1000EB540 /* TYBaseViewController.m */; };
+		10CA3CFB1ACD6CF1000EB540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CA3CF91ACD6CF1000EB540 /* Main.storyboard */; };
+		10CA3CFD1ACD6CF1000EB540 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CA3CFC1ACD6CF1000EB540 /* Images.xcassets */; };
+		10CA3D001ACD6CF1000EB540 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CA3CFE1ACD6CF1000EB540 /* LaunchScreen.xib */; };
+		10CA3D0C1ACD6CF1000EB540 /* YatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3D0B1ACD6CF1000EB540 /* YatterTests.m */; };
+		10CA3D171ACD7395000EB540 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CA3D161ACD7395000EB540 /* libsqlite3.0.dylib */; };
+		10CA3D1F1ACD74B6000EB540 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3D1A1ACD74B6000EB540 /* FMDatabase.m */; };
+		10CA3D201ACD74B6000EB540 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3D1C1ACD74B6000EB540 /* FMDatabaseAdditions.m */; };
+		10CA3D211ACD74B6000EB540 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA3D1E1ACD74B6000EB540 /* FMResultSet.m */; };
+		10D7CDA41ACFD7A60036B43C /* TYTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D7CDA31ACFD7A60036B43C /* TYTopViewController.m */; };
+		10D7CDA71ACFD82E0036B43C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D7CDA61ACFD82E0036B43C /* FMDatabasePool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10CA3D061ACD6CF1000EB540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CA3CE41ACD6CF0000EB540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CA3CEB1ACD6CF0000EB540;
+			remoteInfo = Yatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CA3CEC1ACD6CF0000EB540 /* Yatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CA3CF01ACD6CF0000EB540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CA3CF11ACD6CF0000EB540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10CA3CF31ACD6CF0000EB540 /* TYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAppDelegate.h; sourceTree = "<group>"; };
+		10CA3CF41ACD6CF0000EB540 /* TYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAppDelegate.m; sourceTree = "<group>"; };
+		10CA3CF61ACD6CF0000EB540 /* TYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYBaseViewController.h; sourceTree = "<group>"; };
+		10CA3CF71ACD6CF1000EB540 /* TYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYBaseViewController.m; sourceTree = "<group>"; };
+		10CA3CFA1ACD6CF1000EB540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10CA3CFC1ACD6CF1000EB540 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10CA3CFF1ACD6CF1000EB540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		10CA3D051ACD6CF1000EB540 /* YatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CA3D0A1ACD6CF1000EB540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CA3D0B1ACD6CF1000EB540 /* YatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YatterTests.m; sourceTree = "<group>"; };
+		10CA3D161ACD7395000EB540 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		10CA3D191ACD74B6000EB540 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		10CA3D1A1ACD74B6000EB540 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		10CA3D1B1ACD74B6000EB540 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		10CA3D1C1ACD74B6000EB540 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		10CA3D1D1ACD74B6000EB540 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		10CA3D1E1ACD74B6000EB540 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		10CA3D231ACD7A3A000EB540 /* TYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYConst.h; sourceTree = "<group>"; };
+		10D7CDA21ACFD7A60036B43C /* TYTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTopViewController.h; sourceTree = "<group>"; };
+		10D7CDA31ACFD7A60036B43C /* TYTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTopViewController.m; sourceTree = "<group>"; };
+		10D7CDA51ACFD82E0036B43C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		10D7CDA61ACFD82E0036B43C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CA3CE91ACD6CF0000EB540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CA3D171ACD7395000EB540 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CA3D021ACD6CF1000EB540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CA3CE31ACD6CF0000EB540 = {
+			isa = PBXGroup;
+			children = (
+				10CA3D151ACD736D000EB540 /* Frameworks */,
+				10CA3CEE1ACD6CF0000EB540 /* Yatter */,
+				10CA3D081ACD6CF1000EB540 /* YatterTests */,
+				10CA3CED1ACD6CF0000EB540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10CA3CED1ACD6CF0000EB540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3CEC1ACD6CF0000EB540 /* Yatter.app */,
+				10CA3D051ACD6CF1000EB540 /* YatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CA3CEE1ACD6CF0000EB540 /* Yatter */ = {
+			isa = PBXGroup;
+			children = (
+				10D7CDA11ACFD0EA0036B43C /* View */,
+				10D7CDA01ACFD0D40036B43C /* Controller */,
+				10CA3D221ACD79FE000EB540 /* Util */,
+				10CA3D181ACD7462000EB540 /* FMDB */,
+				10CA3CF31ACD6CF0000EB540 /* TYAppDelegate.h */,
+				10CA3CF41ACD6CF0000EB540 /* TYAppDelegate.m */,
+				10CA3CF91ACD6CF1000EB540 /* Main.storyboard */,
+				10CA3CFC1ACD6CF1000EB540 /* Images.xcassets */,
+				10CA3CFE1ACD6CF1000EB540 /* LaunchScreen.xib */,
+				10CA3CEF1ACD6CF0000EB540 /* Supporting Files */,
+			);
+			path = Yatter;
+			sourceTree = "<group>";
+		};
+		10CA3CEF1ACD6CF0000EB540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3CF01ACD6CF0000EB540 /* Info.plist */,
+				10CA3CF11ACD6CF0000EB540 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10CA3D081ACD6CF1000EB540 /* YatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3D0B1ACD6CF1000EB540 /* YatterTests.m */,
+				10CA3D091ACD6CF1000EB540 /* Supporting Files */,
+			);
+			path = YatterTests;
+			sourceTree = "<group>";
+		};
+		10CA3D091ACD6CF1000EB540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3D0A1ACD6CF1000EB540 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10CA3D151ACD736D000EB540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3D161ACD7395000EB540 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10CA3D181ACD7462000EB540 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				10D7CDA51ACFD82E0036B43C /* FMDatabasePool.h */,
+				10D7CDA61ACFD82E0036B43C /* FMDatabasePool.m */,
+				10CA3D191ACD74B6000EB540 /* FMDatabase.h */,
+				10CA3D1A1ACD74B6000EB540 /* FMDatabase.m */,
+				10CA3D1B1ACD74B6000EB540 /* FMDatabaseAdditions.h */,
+				10CA3D1C1ACD74B6000EB540 /* FMDatabaseAdditions.m */,
+				10CA3D1D1ACD74B6000EB540 /* FMResultSet.h */,
+				10CA3D1E1ACD74B6000EB540 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		10CA3D221ACD79FE000EB540 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3D231ACD7A3A000EB540 /* TYConst.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		10D7CDA01ACFD0D40036B43C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10CA3CF61ACD6CF0000EB540 /* TYBaseViewController.h */,
+				10CA3CF71ACD6CF1000EB540 /* TYBaseViewController.m */,
+				10D7CDA21ACFD7A60036B43C /* TYTopViewController.h */,
+				10D7CDA31ACFD7A60036B43C /* TYTopViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10D7CDA11ACFD0EA0036B43C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CA3CEB1ACD6CF0000EB540 /* Yatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CA3D0F1ACD6CF1000EB540 /* Build configuration list for PBXNativeTarget "Yatter" */;
+			buildPhases = (
+				10CA3CE81ACD6CF0000EB540 /* Sources */,
+				10CA3CE91ACD6CF0000EB540 /* Frameworks */,
+				10CA3CEA1ACD6CF0000EB540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yatter;
+			productName = Yatter;
+			productReference = 10CA3CEC1ACD6CF0000EB540 /* Yatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10CA3D041ACD6CF1000EB540 /* YatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CA3D121ACD6CF1000EB540 /* Build configuration list for PBXNativeTarget "YatterTests" */;
+			buildPhases = (
+				10CA3D011ACD6CF1000EB540 /* Sources */,
+				10CA3D021ACD6CF1000EB540 /* Frameworks */,
+				10CA3D031ACD6CF1000EB540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CA3D071ACD6CF1000EB540 /* PBXTargetDependency */,
+			);
+			name = YatterTests;
+			productName = YatterTests;
+			productReference = 10CA3D051ACD6CF1000EB540 /* YatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CA3CE41ACD6CF0000EB540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = yamatomo;
+				TargetAttributes = {
+					10CA3CEB1ACD6CF0000EB540 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					10CA3D041ACD6CF1000EB540 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 10CA3CEB1ACD6CF0000EB540;
+					};
+				};
+			};
+			buildConfigurationList = 10CA3CE71ACD6CF0000EB540 /* Build configuration list for PBXProject "Yatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10CA3CE31ACD6CF0000EB540;
+			productRefGroup = 10CA3CED1ACD6CF0000EB540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CA3CEB1ACD6CF0000EB540 /* Yatter */,
+				10CA3D041ACD6CF1000EB540 /* YatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CA3CEA1ACD6CF0000EB540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CA3CFB1ACD6CF1000EB540 /* Main.storyboard in Resources */,
+				10CA3D001ACD6CF1000EB540 /* LaunchScreen.xib in Resources */,
+				10CA3CFD1ACD6CF1000EB540 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CA3D031ACD6CF1000EB540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CA3CE81ACD6CF0000EB540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CA3D211ACD74B6000EB540 /* FMResultSet.m in Sources */,
+				10D7CDA41ACFD7A60036B43C /* TYTopViewController.m in Sources */,
+				10CA3CF81ACD6CF1000EB540 /* TYBaseViewController.m in Sources */,
+				10CA3CF51ACD6CF0000EB540 /* TYAppDelegate.m in Sources */,
+				10CA3CF21ACD6CF0000EB540 /* main.m in Sources */,
+				10D7CDA71ACFD82E0036B43C /* FMDatabasePool.m in Sources */,
+				10CA3D1F1ACD74B6000EB540 /* FMDatabase.m in Sources */,
+				10CA3D201ACD74B6000EB540 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CA3D011ACD6CF1000EB540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CA3D0C1ACD6CF1000EB540 /* YatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CA3D071ACD6CF1000EB540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CA3CEB1ACD6CF0000EB540 /* Yatter */;
+			targetProxy = 10CA3D061ACD6CF1000EB540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10CA3CF91ACD6CF1000EB540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CA3CFA1ACD6CF1000EB540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10CA3CFE1ACD6CF1000EB540 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CA3CFF1ACD6CF1000EB540 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10CA3D0D1ACD6CF1000EB540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10CA3D0E1ACD6CF1000EB540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10CA3D101ACD6CF1000EB540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10CA3D111ACD6CF1000EB540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10CA3D131ACD6CF1000EB540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yatter.app/Yatter";
+			};
+			name = Debug;
+		};
+		10CA3D141ACD6CF1000EB540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yatter.app/Yatter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CA3CE71ACD6CF0000EB540 /* Build configuration list for PBXProject "Yatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CA3D0D1ACD6CF1000EB540 /* Debug */,
+				10CA3D0E1ACD6CF1000EB540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CA3D0F1ACD6CF1000EB540 /* Build configuration list for PBXNativeTarget "Yatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CA3D101ACD6CF1000EB540 /* Debug */,
+				10CA3D111ACD6CF1000EB540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CA3D121ACD6CF1000EB540 /* Build configuration list for PBXNativeTarget "YatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CA3D131ACD6CF1000EB540 /* Debug */,
+				10CA3D141ACD6CF1000EB540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10CA3CE41ACD6CF0000EB540 /* Project object */;
+}
